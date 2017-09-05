@@ -152,7 +152,7 @@ public class FirstViewModel : MvxViewModel
     {
         get
         {
-            return new MvxCommand(() => ShowViewModel<SecondViewModel>();
+            return new MvxCommand(() => ShowViewModel<SecondViewModel>());
         }
     }
 }
